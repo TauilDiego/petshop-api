@@ -1,0 +1,23 @@
+{
+  "name": "backend_rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Diego Tauil Sousa",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "express": "^4.17.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
